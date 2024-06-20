@@ -8,8 +8,8 @@ Appium automation (JAVA_HOME(eclipse/intellij), ANDROID_HOME (android studio), a
   **Java (JDK)**
   <link> https://www.oracle.com/java/technologies/downloads/#jdk21-windows </link>
 
-  --Setup Environment Variables for JAVA:--
-  Variable Name: JAVA_HOME
+  --Setup Environment Variables for JAVA:-- <br>
+  Variable Name: JAVA_HOME 
   variabe value: C:\Program Files\Java\jdk-21
   
   Path (add new values to path system variable)
@@ -24,7 +24,7 @@ Appium automation (JAVA_HOME(eclipse/intellij), ANDROID_HOME (android studio), a
   <link> https://developer.android.com/studio</link>
 
   --Setup Environment Variables for android Studio:--
-  ANDRIOD_HOME    C:\Users\vimal\AppData\Local\Android\sdk
+  ANDRIOD_HOME    C:\Users\username\AppData\Local\Android\sdk
 
   Path
   %ANDROID_HOME%\build-tools
@@ -142,10 +142,10 @@ desired_caps = {
 
 
 # Creating eclipse project and Other Compatibility checks for debugging
-> Create maven project simple
-> create new package under src/test/java
-> create new class under the package created and include your test java code
-> Dependency need to be added in **pom.xml** file of the simple maven project according to compatible version as required. You need to change versions if getting errors
+> Create maven project simple ;
+> create new package under src/test/java ;
+> create new class under the package created and include your test java code ;
+> Dependency need to be added in **pom.xml** file of the simple maven project according to compatible version as required. You need to change versions if getting errors;
 
 **Appium Java Client version must be compatible with Selenium client**
 <link> https://github.com/appium/java-client </link>
