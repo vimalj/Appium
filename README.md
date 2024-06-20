@@ -56,43 +56,43 @@ install the missing packages (mjpeg-consumer) with the below command if needed
 
 **To install, uninstall, or update an Appium driver we can use the respective commands as instructed below.**
 
-# To install a new driver
+ **To install a new driver**
 appium driver install <plugin name>
-# To install a new driver from npm
+**To install a new driver from npm**
 appium driver install --source=npm <plugin name>[@<version>]
-# To install a driver from a local folder (useful for developers)
+**To install a driver from a local folder (useful for developers)**
 appium driver install --source=local /Users/me/sources/<plugin name>
-# To install a new driver from github 
+**To install a new driver from github** 
 appium driver install --source=github --package=<plugin name> appium/<plugin name>
 
-# To list already installed drivers
+**To list already installed drivers**
 appium driver list --installed
 
-# To update a driver (it must be already installed)
+**To update a driver (it must be already installed)**
 appium driver update xcuitest
 
-# To uninstall a driver (it won't last forever, wouldn't it?)
+**To uninstall a driver (it won't last forever, wouldn't it?)**
 appium driver uninstall xcuitest
 
 
 **appium plugin list**
 
-# To install an officially supported plugin
+**To install an officially supported plugin**
 appium plugin install <plugin-name>
 
-# To install a plugin from a local folder (useful for developers)
+**To install a plugin from a local folder (useful for developers)**
 appium plugin install --source=local /Users/me/sources/<plugin name>
 
-# To install a new plugin from npm
+**To install a new plugin from npm**
 appium plugin install --source=npm <plugin name>
 
-# To list already installed plugins
+**To list already installed plugins**
 appium plugin list --installed
 
-# To update a plugins (it must be already installed)
+**To update a plugins (it must be already installed)**
 appium plugin update <plugin name>
 
-# To uninstall a plugin
+**To uninstall a plugin**
 appium plugin uninstall <plugin name>
 
 
