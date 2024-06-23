@@ -151,8 +151,10 @@ desired_caps = {
 
 [Appium Java Client Github](https://github.com/appium/java-client)
 
-{{
-<dependencies>
+
+<table>
+  <tr>
+(<dependencies>
 <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 <dependency>
     <groupId>io.appium</groupId>
@@ -165,8 +167,9 @@ desired_caps = {
     <artifactId>selenium-java</artifactId>
     <version>4.21.0</version>
 </dependency>
-  </dependencies>
- }}
+  </dependencies>)
+  </tr>
+</table>
 
 
 
