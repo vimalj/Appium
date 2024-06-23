@@ -148,8 +148,10 @@ desired_caps = {
 > Dependency need to be added in **pom.xml** file of the simple maven project according to compatible version as required. You need to change versions if getting errors;
 
 **Appium Java Client version must be compatible with Selenium client**
+
 [Appium Java Client Github](https://github.com/appium/java-client)
 
+{{
 <dependencies>
 <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 <dependency>
@@ -164,7 +166,7 @@ desired_caps = {
     <version>4.21.0</version>
 </dependency>
   </dependencies>
- 
+ }}
 
 
 
