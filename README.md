@@ -1,13 +1,13 @@
 # Appium
 Appium automation (JAVA_HOME(eclipse/intellij), ANDROID_HOME (android studio), appiumCLI, appiuminspector, Maven, TestNG  or any other required dependencies required for working
-<link> https://www.lambdatest.com/learning-hub/appium-commands-cheat-sheet </link>
+[Appium Commands] (https://www.lambdatest.com/learning-hub/appium-commands-cheat-sheet)
   
   # Pre requirements for installation
   **Node Js**
-  <link>https://nodejs.org/en/download/package-manager</link>
+  https://nodejs.org/en/download/package-manager
 
   **Java (JDK)**
-  <link> https://www.oracle.com/java/technologies/downloads/#jdk21-windows </link>
+  https://www.oracle.com/java/technologies/downloads/#jdk21-windows 
 
   --Setup Environment Variables for JAVA:-- <br>
   Variable Name: JAVA_HOME 
@@ -19,10 +19,10 @@ Appium automation (JAVA_HOME(eclipse/intellij), ANDROID_HOME (android studio), a
 
   
   **Eclipse** (IDE already have maven plugin + can install testNG, Junit from eclipse marketplace)
-  <link> https://www.eclipse.org/downloads/download.php?file=%2Foomph%2Fepp%2F2023-09%2FR%2Feclipse-inst-jre-win64.exe </link>
+  https://www.eclipse.org/downloads/download.php?file=%2Foomph%2Fepp%2F2023-09%2FR%2Feclipse-inst-jre-win64.exe
 
   **Android Studio**
-  <link> https://developer.android.com/studio</link>
+  https://developer.android.com/studio
 
   --Setup Environment Variables for android Studio:--
   ANDRIOD_HOME    C:\Users\username\AppData\Local\Android\sdk
@@ -98,7 +98,7 @@ appium plugin uninstall <plugin name>
 
 
 # Download and install appium inspector on your system
-<link> https://github.com/appium/appium-inspector/releases </link>
+https://github.com/appium/appium-inspector/releases
 
 Appium or Inspector also need settings for mobile : Click on settings, about phone and click on android version more than 7 times to open developer tools
 USB debugging on - (developer tools)
@@ -149,7 +149,7 @@ desired_caps = {
 > Dependency need to be added in **pom.xml** file of the simple maven project according to compatible version as required. You need to change versions if getting errors;
 
 **Appium Java Client version must be compatible with Selenium client**
-<link> https://github.com/appium/java-client </link>
+https://github.com/appium/java-client
 
 <dependencies>
 <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
