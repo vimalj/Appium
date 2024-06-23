@@ -6,7 +6,7 @@ Appium automation (JAVA_HOME(eclipse/intellij), ANDROID_HOME (android studio), a
   # Pre requirements for installation
   [Download Node Js](https://nodejs.org/en/download/package-manager)
 
-  [Java JDK](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
+  [Download Java JDK](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)
 
   --Setup Environment Variables for JAVA:-- <br>
   Variable Name: JAVA_HOME 
